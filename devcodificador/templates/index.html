@@ -9,24 +9,31 @@
 </head>
 <body>
     <header>
-        <img src="../assets/Logo.png" alt="Logo é uma letra A" class="">
+        <a href="index.html" title="Home"> 
+            <img src="../assets/Logo.png" alt="Logo é uma letra A" class="">
+        </a>
     </header>
     <main class="original">
         <section class="original__text">
-            <input type="text" value="Digite seu texto " class="original__text__decoded">
+            <textarea class="original__text__decoded" cols="60" rows="12" placeholder="Digite seu texto!"></textarea>
             <div class="original__button">
                 <button onclick="checkKick()" class="encoded__button">Criptografar</button>
                 <button onclick="restartGame()" id="reiniciar" class="original__button__text" >Descriptografar</button>
             </div>
         </section>
-        <div class="encoded__text">
-            <input type="text" value="" class="encoded__text__input">
-            <img src="../assets/High quality products 1 1.png" alt="Desenho de um menino segurando uma lupa">
-            <h1>Nenhuma mensagem encontrada</h1>
-            <p>Digite um texto que você deseja criptografar ou descriptografar.</p>   
+        <section class="encoded">  
+<!--             <textarea class="" cols="60" rows="12" placeholder=" " readonly></textarea>
+            <button type="button" class="invisivel btn-copiar">Copiar</button>    -->   
+            <img src="../assets/High quality products.png" alt="Desenho de um menino segurando uma lupa">      
+        </section> 
     </main>
     <footer class="baseboard">
-        <p>Desenvolvido por Douglas Bitencourt</p>
+        <div>
+            <a href="https://www.linkedin.com/in/bitencourtdoug/" target="_blank"> <img src="../assets/logo-linkedin.png" alt="Logo do linkedin"></a>
+            <a href="https://github.com/bitencourtdoug" target="_blank"> <img src="../assets/logo-github.png" alt="Logo do GitHub"></a>
+            <a href="https://www.instagram.com/bitencourtdoug/" target="_blank"> <img src="../assets/logo-instagram.png" alt="Logo do Instagram"></a>
+            <p>&#169; Desenvolvido por Douglas Bitencourt</p>
+        </div>
     </footer>  
 </body>
 </html>

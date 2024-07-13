@@ -15,25 +15,24 @@
     </header>
     <main class="original">
         <section class="original__text">
-            <textarea class="original__text__decoded" cols="60" rows="12" placeholder="Digite seu texto!"></textarea>
+            <textarea id="original__text__decoded" cols="60" rows="12" placeholder="Digite seu texto!"></textarea>
             <div class="original__button">
-                <button onclick="checkKick()" class="encoded__button">Criptografar</button>
-                <button onclick="restartGame()" id="reiniciar" class="original__button__text" >Descriptografar</button>
+                <button onclick="encrypt()" class="encoded__button">Criptografar</button>
+                <button onclick="decrypt()" class="original__button__text" >Descriptografar</button>
             </div>
         </section>
-        <section class="encoded">  
-<!--             <textarea class="" cols="60" rows="12" placeholder=" " readonly></textarea>
-            <button type="button" class="invisivel btn-copiar">Copiar</button>    -->   
-            <img src="../assets/High quality products.png" alt="Desenho de um menino segurando uma lupa">      
+        <section id="encoded">  
+            <img src="../assets/High quality products.png" alt="Desenho de um menino segurando uma lupa" >      
         </section> 
     </main>
     <footer class="baseboard">
-        <div>
+        <div class="baseboad__rede">
             <a href="https://www.linkedin.com/in/bitencourtdoug/" target="_blank"> <img src="../assets/logo-linkedin.png" alt="Logo do linkedin"></a>
             <a href="https://github.com/bitencourtdoug" target="_blank"> <img src="../assets/logo-github.png" alt="Logo do GitHub"></a>
-            <a href="https://www.instagram.com/bitencourtdoug/" target="_blank"> <img src="../assets/logo-instagram.png" alt="Logo do Instagram"></a>
-            <p>&#169; Desenvolvido por Douglas Bitencourt</p>
+            <a href="https://www.instagram.com/bitencourtdoug/" target="_blank"> <img src="../assets/logo-instagram.png" alt="Logo do Instagram"></a>           
         </div>
+        <p>&#169; Desenvolvido por Douglas Bitencourt</p>
     </footer>  
+    <script src="../js/app.js"></script>
 </body>
 </html>

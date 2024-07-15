@@ -33,7 +33,9 @@ header {
     display: flex;
     gap: 10px;
     align-items: center;
-    padding: 0 0 0 800px;
+   /*  padding: 0 0 0 800px; */
+    position: absolute;
+    right: 20px;
 }
 
 .original {
@@ -112,11 +114,14 @@ header {
 
 #copy {
     border-radius: 16px;
+    padding: 1.5rem;
+    font-size: 18px;
+    font-weight: 700;
     background: var(--cor-chitenaria);
     border: none;    
     color: var(--cor-secondary);
     cursor: pointer;  
-   /*  visibility: hidden; */
+    /* visibility: hidden; */
 }
 
 #encoded {
@@ -136,45 +141,38 @@ header {
     /* visibility: hidden; */
 }
 
-#encoded__encoded {
-    width: 100%;       
-    background-color: var(--cor-secondary);
-    border-radius: 14px;
-    display: flex;
-    justify-content: center;
-    gap: 16px;    
-    text-align: center;
-    font-size: 1.5rem;
-    font-weight: 600;
-    padding: 21.5px ;
-    text-decoration: none;
-    color: var(--cor-tertiary);
-    font-family: var(--fonte-secondary);    
-    visibility: hidden;    
-
+#inputText{
+    width: 345px;
+    height: 330px;
+    font-size: 20px;
+    color: var(--cortitulo);
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    resize: none;
+    outline: 0;
+    padding: 10px;
+    text-transform: uppercase;
 }
 
 .baseboard {
     color: var(--cor-primary);
     background-color: var(--cor-tertiary);
-    padding: 5px;
+    padding: 30px;
     text-align: center;
     font-family: var(--fonte-secondary);
     font-size: 1rem;
-    font-weight: 400;
-        
+    font-weight: 400;    
+    
 }
+
+    
 
 
 @media (max-width: 800px) {
     header {
         padding: 10%;    
-        justify-content: center;   
-    }
-    .rede {   
-        padding: 2%;
-        width: 100%;        
-        justify-content: center;  
+            
     }
     .original {
         flex-direction: column;

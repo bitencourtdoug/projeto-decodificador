@@ -29,6 +29,13 @@ header {
     gap: 2px;
 }
 
+.rede {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    padding: 0 0 0 800px;
+}
+
 .original {
     padding: 1%;    
     display: flex;
@@ -103,19 +110,33 @@ header {
     cursor: pointer;
 }
 
-.copy {
+#copy {
     border-radius: 16px;
     background: var(--cor-chitenaria);
-    padding: 10px;    
-    font-size: 24px;
-    font-weight: 700;
     border: none;    
     color: var(--cor-secondary);
-    cursor: pointer;
-    
+    cursor: pointer;  
+   /*  visibility: hidden; */
 }
 
 #encoded {
+    width: 30%;       
+    background-color: var(--cor-secondary);
+    border-radius: 14px;
+    display: flex;
+    justify-content: center;
+    gap: 25px;    
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 21px;
+    text-decoration: none;
+    color: var(--cor-tertiary);
+    font-family: var(--fonte-secondary);    
+    /* visibility: hidden; */
+}
+
+#encoded__encoded {
     width: 100%;       
     background-color: var(--cor-secondary);
     border-radius: 14px;
@@ -129,7 +150,8 @@ header {
     text-decoration: none;
     color: var(--cor-tertiary);
     font-family: var(--fonte-secondary);    
-    /* visibility: hidden; */
+    visibility: hidden;    
+
 }
 
 .baseboard {
@@ -143,10 +165,16 @@ header {
         
 }
 
+
 @media (max-width: 800px) {
     header {
         padding: 10%;    
         justify-content: center;   
+    }
+    .rede {   
+        padding: 2%;
+        width: 100%;        
+        justify-content: center;  
     }
     .original {
         flex-direction: column;
@@ -156,10 +184,14 @@ header {
     .original__text {
         width: auto;
     }
-    .encoded {
+    .original__button {
+        flex-direction: column;
+        padding: 5%;
+    }
+    #encoded {
         width: 100%;
         margin-top: 2rem;
-        margin-bottom: 2rem;
+        margin-bottom: 2rem;        
     }
 } 
 

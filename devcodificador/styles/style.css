@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@400&600&display=swap');
+
+
 :root {
     --cor-primary: #E5E5E5;
     --cor-secondary: #FFFFFF;
@@ -15,8 +18,7 @@
     padding: 0;
 }
 
-body {
-    /* height: 100vh;  */
+body {  
     box-sizing: border-box;
     background-color: var(--cor-primary);
     color: var(--cor-tertiary)
@@ -33,7 +35,6 @@ header {
     display: flex;
     gap: 10px;
     align-items: center;
-   /*  padding: 0 0 0 800px; */
     position: absolute;
     right: 20px;
 }
@@ -120,10 +121,9 @@ header {
     background: var(--cor-chitenaria);
     border: none;    
     color: var(--cor-secondary);
-    cursor: pointer;  
-    /* visibility: hidden; */
-}
+    cursor: pointer;   
 
+}
 #encoded {
     width: 30%;       
     background-color: var(--cor-secondary);
@@ -138,21 +138,19 @@ header {
     text-decoration: none;
     color: var(--cor-tertiary);
     font-family: var(--fonte-secondary);    
-    /* visibility: hidden; */
 }
 
 #inputText{
     width: 345px;
     height: 330px;
     font-size: 20px;
-    color: var(--cortitulo);
+    color:  var(--cor-chitenaria);
     background: transparent;
     box-shadow: none;
     border: none;
     resize: none;
     outline: 0;
-    padding: 10px;
-    text-transform: uppercase;
+    padding: 10px; 
 }
 
 .baseboard {
@@ -183,7 +181,7 @@ header {
         width: auto;
     }
     .original__button {
-        flex-direction: column;
+        flex-direction: row;
         padding: 5%;
     }
     #encoded {
@@ -191,5 +189,29 @@ header {
         margin-top: 2rem;
         margin-bottom: 2rem;        
     }
+}    
+
+@media (max-width: 500px) {
+        header {
+            padding: 10%;    
+                
+        }
+        .original {
+            flex-direction: column;
+            padding: 5%;
+        }
+    
+        .original__text {
+            width: auto;
+        }
+        .original__button {
+            flex-direction: column;
+            padding: 5%;
+        }
+        #encoded {
+            width: 100%;
+            margin-top: 2rem;
+            margin-bottom: 2rem;        
+        }
 } 
 

@@ -2,12 +2,10 @@
 
 
 :root {
-    --cor-primary: #E5E5E5;
+    --cor-primary: #F0F8FF;
     --cor-secondary: #FFFFFF;
-    --cor-tertiary: #343A40;
+    --cor-tertiary: #331F1A;
     --cor-quaternary: #D8DFE8;
-    --cor-chitenaria: #0A3871;  
-    --cor-hover: #272727;
 
     --fonte-primary: 'Krona One', sans-serif;
     --fonte-secondary: 'Montserrat', sans-serif;
@@ -25,10 +23,11 @@ body {
 
 }
 
-header {
+header {   
     padding: 2% 0% 1% 0%;
     display: flex;
-    gap: 2px;
+    gap: 2px;     
+    filter: sepia(100%);
 }
 
 .rede {
@@ -69,7 +68,7 @@ header {
     font-weight: 300;
     padding: 10px;
     text-decoration: none;
-    color: var(--cor-chitenaria);
+    color: var(--cor-tertiary);
     font-family: var(--fonte-secondary);
     
 }
@@ -89,7 +88,7 @@ header {
 
 .encoded__button {
     border-radius: 16px;
-    background: var(--cor-chitenaria);
+    background: var(--cor-tertiary);
     padding: 16px 24px;
     width: 100%;
     font-size: 24px;
@@ -109,16 +108,16 @@ header {
     font-weight: 700;
     border: none;
     margin-top: 2rem;
-    color: var(--cor-chitenaria);
+    color: var(--cor-tertiary);
     cursor: pointer;
 }
 
 #copy {
     border-radius: 16px;
-    padding: 1.5rem;
+    padding: 0.5rem;
     font-size: 18px;
     font-weight: 700;
-    background: var(--cor-chitenaria);
+    background: var(--cor-tertiary);
     border: none;    
     color: var(--cor-secondary);
     cursor: pointer;   
@@ -138,19 +137,25 @@ header {
     text-decoration: none;
     color: var(--cor-tertiary);
     font-family: var(--fonte-secondary);    
+    
+}
+
+.encoded__img {
+    filter: saturate(5%);
 }
 
 #inputText{
     width: 345px;
     height: 330px;
     font-size: 20px;
-    color:  var(--cor-chitenaria);
+    color:  var(--cor-tertiary);
     background: transparent;
     box-shadow: none;
     border: none;
     resize: none;
     outline: 0;
     padding: 10px; 
+    
 }
 
 .baseboard {

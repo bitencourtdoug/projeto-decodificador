@@ -18,5 +18,6 @@ A função de **criptografar e descriptografar** usei a função ***replace***, 
 No layout alterei a forma para tablet e celular, do layout sujerido, para que nessas duas formas contunasse aparecendo a imagem do **menino segurando uma lupa**
 A logo da alura **a** envolvie numa tag <a></a> para atualizar a pagina, e após o conteudo ser copiado a pagina atualiza, voltando para tela principal.
 Foi incluido o rodape, e no header incluir as minhas redes sociais. 
+Alterado as cores do Layout.
 
 

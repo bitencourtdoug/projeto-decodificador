@@ -1,7 +1,7 @@
 var textInformed = document.querySelector("#original__text__decoded");
 var textEncoded = document.querySelector("#encoded");
 var copyButton = '<button id="copy" onclick="copy()">Copiar</button>' 
-var result = '<img class="encoded__img" src="../assets/High quality products.png" alt="Desenho de um menino segurando uma lupa" >'      
+var result = '<img class="encoded__img" src="/devcodificador/assets/High quality products.png" alt="Desenho de um menino segurando uma lupa" >'      
 
 function encrypt() {
     var encryptedText = textInformed.value.replace(/e/g, "enter").replace(/i/g, "imes").replace(/a/g, "ai").replace(/o/g, "ober").replace(/u/g, "ufat");

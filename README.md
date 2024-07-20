@@ -20,4 +20,18 @@ A logo da alura **a** envolvie numa tag <a></a> para atualizar a pagina, e após
 Foi incluido o rodape, e no header incluir as minhas redes sociais. 
 Alterado as cores do Layout.
 
+###### Print das telas
+
+Tela **Home**:
+            <img src="/devcodificador/assets/Home.png">
+
+Tela **Descriptografar**:
+            <img src="/devcodificador/assets/Descriptografar.png">
+
+Tela **Botão copiar**:
+            <img src="/devcodificador/assets/Botão Copiar.png">
+
+Tela **Criptografar**:
+            <img src="/devcodificador/assets/Criptografar.png">
+
 

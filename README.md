@@ -6,7 +6,8 @@ Neste desafio o primcipal objetivo e colcoar em prática o conhecimeto adquirido
 Temos como obejtivo criar um **codificador/decodificador** de texto seguindo o padrão pre estabelecido, onde ao final da conclusão do projeto decodificamos a frase: **pairaibenterns poberr enterncairair enterssenter dentersaifimesober enter tenterr fimesnailimeszaidober enterlenter coberm sufatcenterssober!**. Foi disponibilizado o modelo do projetp no **Figma**, e cards no **Trello** onde gerenciamos o desenvolvimento do projeto de maneira a usar as metodologias ágeis.
 
 ## Publicação
-O projeto esta disponivél para ser clonado atraves: **git@github.com:bitencourtdoug/projeto-decodificador.git**, e publicado no GitHub Pages.
+O projeto esta disponivél para ser clonado atraves: **git@github.com:bitencourtdoug/projeto-decodificador.git**, e publicado no GitHub Pages: **https://bitencourtdoug.github.io/projeto-decodificador/** 
+
 
 ### Codigo
 Priorizei o codigo mais limpo possivel, de forma que seja simples e pratico de visualizar as suas ações.
